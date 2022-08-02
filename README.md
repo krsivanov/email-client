@@ -3,7 +3,11 @@ Email Client Application
 
 ## Description
 
-Simple email-client project. The application can send and read emails from gmail and yahoo. s
+Simple email-client project. The application can send and read emails from gmail and yahoo. This app can send emails to multiple users by dividing the addresses with ', '.
+You can attach and remove files in the email with the buttons 'Add Attachment' and 'Remove Attachment'.
+You can choose the file you want to remove from the dropdown menu in the right. After you write the email and add the attachment by pressing the menu button you  get a message box asking you to confirm if you want to send it. By pressing yes the email is sent.
+'Show Inbox' button let you read the messages in your email(You don't see the attachemnt in the emails just the written message).
+'Show Contacts' feature is in development
 
 ## Getting Started
 
@@ -18,38 +22,35 @@ Simple email-client project. The application can send and read emails from gmail
 
 
 ### Installing
+#### For Windows
+* Download and Install - python v.3.10.5 from :
+    https://www.python.org/downloads/release/python-3105/
 
-* Download
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* Download and Install pip
+    The PIP can be downloaded and installed using the command line by going through the following steps:
+
+    Method 1: Using cURL in Python
+    Curl is a UNIX command that is used to send the PUT, GET, and POST requests to a URL. This tool is utilized for downloading files, testing REST APIs, etc.
+
+    Step 1: Open the cmd terminal 
+
+    Step 2: In python, a curl is a tool for transferring data requests to and from a server. Use the following command to request:
+
+    curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+    python get-pip.py
+    https://bootstrap.pypa.io/get-pip.py
+
+* Install Dependancies 
+    Step 1: Open the cmd terminal
+    step 2: Write in the cmd terminal the following comands:
+     - pip install tkinter
+     - pip install imaplib
+     - pip install smtplib
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
+* Opening the Project
+    Step 1: Open the cmd terminal
+    Step 2: Open the folder where the project is located
+    Step 3: Write in the command line the following command:
+     - python email-client.py
