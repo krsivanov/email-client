@@ -3,17 +3,23 @@ Email Client Application
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+Simple email-client project. The application can send and read emails from gmail and yahoo. s
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+* The project is made on Python 3.10.4
+* used python libraries:
+    - tkinter (GUI)
+    - smtplib (send mails)
+    - imaplib (read mails)
+    - email (parse mails)
+
 
 ### Installing
 
+* Download
 * How/where to download your program
 * Any modifications needed to be made to files/folders
 
