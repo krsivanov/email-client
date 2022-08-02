@@ -303,17 +303,17 @@ def show_read_emails_frame(username,password):
 def show_contacts_frame(user_email):
     messagebox.showinfo(title='INFO', message='Coming Soon...')
 
-    hide_frame(write_email_frame)
-    s=StringVar()
-    name_label = tk.Label(contacts_frame,text='Name:', font=('Helvetica 10'))
-    name_label.grid(row=0,column=0, padx=10,pady=5, sticky='W')
+    # hide_frame(write_email_frame)
+    # s=StringVar()
+    # name_label = tk.Label(contacts_frame,text='Name:', font=('Helvetica 10'))
+    # name_label.grid(row=0,column=0, padx=10,pady=5, sticky='W')
 
-    name_entry = tk.Entry(contacts_frame,textvariable= s, font=('Helvetica 10'))
-    name_entry.grid(row=0,column=1, padx=10,pady=5, sticky='WE')
-    subject_label = tk.Label(contacts_frame,text='Subject:', font=('Helvetica 10'))
-    subject_label.grid(row=1,column=0, padx=10,pady=5, sticky='W')
-    subject_entry = tk.Entry(contacts_frame,textvariable= s, font=('Helvetica 10'))
-    subject_entry.grid(row=1,column=1, padx=10,pady=5, sticky='WE')
+    # name_entry = tk.Entry(contacts_frame,textvariable= s, font=('Helvetica 10'))
+    # name_entry.grid(row=0,column=1, padx=10,pady=5, sticky='WE')
+    # subject_label = tk.Label(contacts_frame,text='Subject:', font=('Helvetica 10'))
+    # subject_label.grid(row=1,column=0, padx=10,pady=5, sticky='W')
+    # subject_entry = tk.Entry(contacts_frame,textvariable= s, font=('Helvetica 10'))
+    # subject_entry.grid(row=1,column=1, padx=10,pady=5, sticky='WE')
 
 
 
